@@ -1,0 +1,12 @@
+[env:nodemcuv2]
+platform = espressif8266
+board = nodemcuv2
+framework = arduino
+monitor_speed = 115200
+board_build.f_cpu = 80000000L
+
+lib_deps = 
+    olikraus/U8g2
+    adafruit/Adafruit AHTX0
+    adafruit/Adafruit BMP280 Library
+    plerup/SoftwareSerial
